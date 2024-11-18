@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mood Analysis</title>
+  <link rel="stylesheet" href="color.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome! Tell us how you're feeling today</h1>
+
+    <form id="moodForm">
+      <label for="q1">How are you feeling today?</label><br>
+      <input type="text" id="q1" name="q1" required><br>
+
+      <label for="q2">What made you feel this way?</label><br>
+      <input type="text" id="q2" name="q2" required><br>
+
+      <label for="q3">Describe your mood in a few words.</label><br>
+      <input type="text" id="q3" name="q3" required><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+
+    <div id="result">
+      <h2></h2>
+    </div>
+  </div>
+
+  <script src="analysis.js"></script>
+</body>
+</html>
